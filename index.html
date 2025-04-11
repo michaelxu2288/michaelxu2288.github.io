@@ -1049,9 +1049,12 @@ of each drug container to estimate the degradation of the drug.
   "faggot"
 ],
       
-      loop: true,
-      typeSpeed: 140,
-      backSpeed: 140
+      typeSpeed: 30,       // characters typed per ms (lower = faster)
+backSpeed: 20,       // speed of backspacing
+startDelay: 0,       // delay before typing starts
+backDelay: 200,      // delay before backspacing
+loop: true,
+smartBackspace: true // only backspace what's necessary
     });
   </script>
 
